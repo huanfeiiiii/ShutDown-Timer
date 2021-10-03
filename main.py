@@ -51,7 +51,7 @@ text = tkinter.Entry(Frame1, width=5, font=('', '40'), justify='center')
 text.pack(side="right")
 
 status = tkinter.IntVar()
-status.set(1)
+status.set(2)
 tkinter.Radiobutton(Frame1, text="分钟", variable=status, value=1, font=('', '18')).pack()
 tkinter.Radiobutton(Frame1, text="小时", variable=status, value=2, font=('', '18')).pack()
 
