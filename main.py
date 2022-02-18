@@ -12,7 +12,7 @@ player = tkinter.Tk()
 player.title("定时关机")
 mw, mh = player.maxsize()
 player.geometry('300x200+%d+%d' % ((mw - 500) / 2, (mh - 300) / 2))  # 窗口居中
-player.resizable(0, 0)  # 锁定窗口大小
+player.resizable(False, False)  # 锁定窗口大小
 
 
 def start():
